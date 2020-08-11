@@ -1,0 +1,27 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+button {
+    width: 130px;
+}
+
+.form_headline,
+.username_field,
+.password_field,
+.login_button {
+    margin-bottom: 10px;
+}
+
+#errorMessage {
+    text-align: center;
+}
